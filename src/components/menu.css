@@ -1,4 +1,6 @@
 .menu-wrapper{
+	position: absolute;
+	left: 0;
 	display : flex;
 	width : 306px;
 	height : 100vh;
