@@ -10,8 +10,8 @@ const App = () => {
   return (
     <>
       <div className="App">
-        <Menu />
         <Routes>
+          <Menu/>
           <Route path="/remote" element={<Remote />} />
           <Route path="/login" element={<Login />} />
           <Route path="/devices" element={<Devices />} />

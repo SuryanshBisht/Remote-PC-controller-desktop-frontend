@@ -1,10 +1,11 @@
 import React from 'react';
 import './devices.css';
-import mobile from '../assets/mobile.svg';
+import mobile from '../assets/mobile.svg';import { useState } from 'react';
+
 
 const Devices  = () => {
   const devices = ['device 1', '2 device', '3 device'];
-
+  
   return (
     <>
     <div className = 'devices-wrapper'>
