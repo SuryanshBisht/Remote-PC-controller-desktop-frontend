@@ -1,0 +1,75 @@
+.login-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items : center;
+	flex-direction: column;
+	width: 306px;
+	height: 454px;
+	background: rgba(255, 255, 255, 0.22);
+	border-radius: 30px;
+	text-align: center;
+}
+
+.heading{
+	width: 142px;
+	height: 58px;
+	font-size: 48px;
+	line-height: 58px;
+	margin-bottom : 30px;
+	/* identical to box height */
+	color: #FFFFFF;
+}
+
+.inputView{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin : 15px;
+	width: 250px;
+}
+label{
+	color : white;
+	width: 74px;
+	height: 19px;
+	left: 593px;
+	top: 427px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	margin-bottom : 10px;
+}
+input, input::placeholder{
+	border-color : transparent transparent white transparent ;
+	background-color: transparent;
+	color : white;
+	outline: none;
+}
+.forgotPassword{
+/*	position :*/
+	color : white;
+	width: 85px;
+	height: 12px;
+	margin-left: 200px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+}
+
+.loginBtn{
+    width: 251px;
+	height: 50px;
+    border-radius:25px;
+    align-items:center;
+    justify-content:center;
+    margin-top:40px;
+    border-width: 0;
+    background-color: white;
+    font-weight : 700;
+    font-size : 20px;
+    color : #689EFF;
+  }
+

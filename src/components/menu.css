@@ -1,0 +1,30 @@
+.menu-wrapper{
+	display : flex;
+	width : 306px;
+	height : 100vh;
+	flex-direction : column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.22);
+/*	background-color: #68B7FF;*/
+/*	opacity : .5;*/
+}
+
+.item{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	border-radius : 50%;
+	background-color : transparent;
+	flex-direction : column ;
+	border : 0px;
+	margin : 20px;
+	height : 150px;
+	width: 150px;
+}
+.label{
+	margin : 10px;
+	color : white;
+}
+
+
